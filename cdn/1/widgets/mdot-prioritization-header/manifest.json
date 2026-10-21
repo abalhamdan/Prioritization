@@ -1,0 +1,17 @@
+{
+  "name": "mdot-prioritization-header",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT",
+  "description": "Site header for the Prioritization site — same layout as mdot-priority-letter-header but branded for the Prioritization site.",
+  "label": "MDOT Prioritization Header",
+  "defaultSize": {
+    "width": 1280,
+    "height": 140
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
