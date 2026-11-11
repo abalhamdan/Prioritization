@@ -51,6 +51,19 @@
       "label": "References",
       "header": true,
       "footer": true
+    },
+    "page_10": {
+      "id": "page_10",
+      "mode": "AUTO_SCROLL",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_10"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "PrioritizationStudiesList",
+      "header": true,
+      "footer": true
     }
   },
   "layouts": {
@@ -292,6 +305,50 @@
       "order": [
         "0"
       ]
+    },
+    "layout_10": {
+      "type": "FLOW",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_11",
+          "bbox": {
+            "left": "0px",
+            "right": "1200px",
+            "top": "0px",
+            "bottom": "330px",
+            "width": "1200px",
+            "height": 350
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_11": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_12",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": 330
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.20.0",
@@ -431,6 +488,35 @@
       "label": "MDOT Prioritization References",
       "config": null,
       "id": "widget_10"
+    },
+    "widget_11": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 5",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_11",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_11"
+        }
+      }
+    },
+    "widget_12": {
+      "uri": "widgets/prioritization-studies-list/",
+      "version": "1.0.0",
+      "label": "Prioritization Studies List",
+      "config": null,
+      "id": "widget_12"
     }
   },
   "widgetsManifest": {},
@@ -441,7 +527,7 @@
   "attributes": {
     "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1792586305271,
+  "timestamp": 1794416415887,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
@@ -457,6 +543,9 @@
     },
     {
       "page_8": []
+    },
+    {
+      "page_10": []
     }
   ],
   "header": {

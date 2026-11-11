@@ -1,0 +1,17 @@
+{
+  "name": "prioritization-studies-list",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP",
+  "description": "Prioritization Studies document library page: the planning and programming sidebar, a page banner, and the full list of program documents (guides, flow chart, checklist, scope template, data resources) with PDF links and a Final/Draft filter.",
+  "label": "Prioritization Studies List",
+  "defaultSize": {
+    "width": 1200,
+    "height": 1500
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
