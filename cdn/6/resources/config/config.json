@@ -249,7 +249,10 @@
           "type": "WIDGET",
           "widgetId": "widget_6",
           "setting": {
-            "heightMode": "fit"
+            "heightMode": "fit",
+            "autoProps": {
+              "height": "AUTO"
+            }
           },
           "bbox": {
             "left": 0,
@@ -527,7 +530,7 @@
   "attributes": {
     "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1794516772265,
+  "timestamp": 1794583170918,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
