@@ -528,16 +528,9 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Prioritization Site",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1794583170918,
+  "timestamp": 1794586291173,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {},
@@ -575,6 +568,5 @@
       "MEDIUM": "850px",
       "SMALL": "1370px"
     }
-  },
-  "publishTimestamp": 1794583171737
+  }
 }
